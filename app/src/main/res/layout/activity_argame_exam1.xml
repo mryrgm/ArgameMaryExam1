@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#f8bbd0"
+    android:layout_height="match_parent"
+    tools:context=".ArgameExam1">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="395dp"
+        android:layout_height="138dp"
+        android:layout_marginBottom="456dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="12dp"
+            app:srcCompat="@drawable/circle" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="89dp"
+            android:layout_height="71dp"
+            android:layout_alignTop="@+id/imageView6"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/hexa" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="71dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imageView6"
+            android:layout_marginEnd="56dp"
+            app:srcCompat="@drawable/diamond" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="72dp"
+            android:layout_height="47dp"
+            android:layout_alignStart="@+id/imageView6"
+            android:layout_below="@+id/imageView6"
+            android:gravity="center_horizontal"
+            android:text="Personal Notes" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="60dp"
+            android:layout_height="43dp"
+            android:layout_below="@+id/imageView6"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="Office Notes" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView9"
+            android:layout_below="@+id/imageView6"
+            android:gravity="center_horizontal"
+            android:text="Public Notes" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="228dp"
+        android:layout_height="174dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="#ffb1ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="174dp">
+
+            <TextView
+                android:id="@+id/note1"
+                style="@style/NoteTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="15dp"
+                android:text="Note 1" />
+
+            <TextView
+                android:id="@+id/cont1"
+                style="@style/NoteContent1"
+                android:layout_width="189dp"
+                android:layout_height="69dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/note1"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="54dp"
+                android:text="- make reviewers for ICS 115 - Make reviewer for ITELEC2C - Make reviewer for IT 205" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="159dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="#ffb1ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="89dp">
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="138dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/yeeol" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="229dp"
+        android:layout_height="248dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        app:cardBackgroundColor="#ffb1ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2"
+        app:layout_constraintVertical_bias="0.608">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/note2"
+                style="@style/NoteTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="15dp"
+                android:text="Note 2" />
+
+            <TextView
+                android:id="@+id/cont2"
+                style="@style/NoteContent2"
+                android:layout_width="178dp"
+                android:layout_height="69dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/note2"
+                android:layout_marginTop="52dp"
+                android:text="- buy dog food and cat food         - follow up main pubmats        - create program flow" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="159dp"
+        android:layout_height="332dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:cardBackgroundColor="#ffb1ff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cardView4"
+        app:layout_constraintTop_toBottomOf="@+id/cardView6"
+        app:layout_constraintVertical_bias="0.333">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp">
+
+            <TextView
+                android:id="@+id/note1b"
+                style="@style/NoteTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/cont1b"
+                android:layout_marginBottom="108dp"
+                android:text="Note 3" />
+
+            <TextView
+                android:id="@+id/cont1b"
+                style="@style/NoteContent1"
+                android:layout_width="124dp"
+                android:layout_height="69dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="19dp"
+                android:text=" Do what makes            you happy" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="135dp"
+                android:layout_height="118dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                app:srcCompat="@drawable/bb" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</android.support.constraint.ConstraintLayout>
